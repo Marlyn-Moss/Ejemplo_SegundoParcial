@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JUEGO DE ADIVINANZA"
+        android:textStyle="bold"
+        android:textColor="#F2F9FC"
+        android:textAlignment="center"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:layout_width="201dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/boton"
+        android:onClick="onClick"
+        android:text="JUGAR">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnPuntaje"
+        android:layout_width="193dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/boton"
+        android:onClick="onClick"
+        android:text="PUNTAJE">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnConfiguracion"
+        android:layout_width="185dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/boton"
+        android:onClick="onClick"
+        android:text="CONFIGURACION">
+
+    </Button>
+
+
+</LinearLayout>
